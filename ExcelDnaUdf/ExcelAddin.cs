@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,6 +33,11 @@ namespace ExcelDnaUdf
         /// </summary>
         public void AutoClose()
         {
+            string exePath = "sxwnl.exe";
+            if (File.Exists(exePath))
+            {
+                File.Delete(exePath);
+            }
             // CONSIDER: Do we implement an explicit call here, or is the AppDomain Unload event good enough?
 
         }

@@ -39,7 +39,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="SharpSxwnl">
-      <HintPath>D:\my\Code\SharpSxwnl\SharpSxwnl\bin\Release\SharpSxwnl.dll</HintPath>
+      <HintPath>..\..\SharpSxwnl\SharpSxwnl\bin\Release\SharpSxwnl.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsyncFunctions.cs" />
+    <Compile Include="ExcelUDF\GameXZ.cs" />
     <Compile Include="WanNianLi\ChinaDate.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="WanNianLi\DateTimeLunar.cs" />
