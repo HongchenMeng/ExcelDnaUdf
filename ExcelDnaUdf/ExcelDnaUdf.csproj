@@ -56,6 +56,7 @@
     <Compile Include="AsyncFunctions.cs" />
     <Compile Include="ExcelUDF\GameXZ.cs" />
     <Compile Include="ExcelUDF\RegexString.cs" />
+    <Compile Include="PlClass\FileClass.cs" />
     <Compile Include="WanNianLi\ChinaDate.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="WanNianLi\DateTimeLunar.cs" />
